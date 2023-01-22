@@ -83,6 +83,7 @@
     <ClInclude Include="Effect.h" />
     <ClInclude Include="EffectShaded.h" />
     <ClInclude Include="EffectTransparent.h" />
+    <ClInclude Include="Helperstructs.h" />
     <ClInclude Include="MathHelpers.h" />
     <ClInclude Include="Matrix.h" />
     <ClInclude Include="Mesh.h" />

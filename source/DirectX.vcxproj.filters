@@ -8,11 +8,8 @@
     <Filter Include="Misc">
       <UniqueIdentifier>{72056cb6-72a2-42b7-b05e-376f1ddd957e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Effects">
+    <Filter Include="DataTypes">
       <UniqueIdentifier>{a36b257e-5540-4721-800d-0ef90d408aff}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="MeshAndTexture">
-      <UniqueIdentifier>{17f616f2-8eb7-4f1a-87ea-c6838e881a58}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -44,21 +41,24 @@
     </ClInclude>
     <ClInclude Include="Utils.h" />
     <ClInclude Include="EffectTransparent.h">
-      <Filter>Effects</Filter>
+      <Filter>DataTypes</Filter>
     </ClInclude>
     <ClInclude Include="Effect.h">
-      <Filter>Effects</Filter>
+      <Filter>DataTypes</Filter>
     </ClInclude>
     <ClInclude Include="EffectShaded.h">
-      <Filter>Effects</Filter>
-    </ClInclude>
-    <ClInclude Include="Mesh.h">
-      <Filter>MeshAndTexture</Filter>
-    </ClInclude>
-    <ClInclude Include="Texture.h">
-      <Filter>MeshAndTexture</Filter>
+      <Filter>DataTypes</Filter>
     </ClInclude>
     <ClInclude Include="Camera.h" />
+    <ClInclude Include="Mesh.h">
+      <Filter>DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Helperstructs.h">
+      <Filter>DataTypes</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -80,19 +80,19 @@
     </ClCompile>
     <ClCompile Include="pch.cpp" />
     <ClCompile Include="EffectTransparent.cpp">
-      <Filter>Effects</Filter>
+      <Filter>DataTypes</Filter>
     </ClCompile>
     <ClCompile Include="EffectShaded.cpp">
-      <Filter>Effects</Filter>
+      <Filter>DataTypes</Filter>
     </ClCompile>
     <ClCompile Include="Effect.cpp">
-      <Filter>Effects</Filter>
+      <Filter>DataTypes</Filter>
     </ClCompile>
     <ClCompile Include="Mesh.cpp">
-      <Filter>MeshAndTexture</Filter>
+      <Filter>DataTypes</Filter>
     </ClCompile>
     <ClCompile Include="Texture.cpp">
-      <Filter>MeshAndTexture</Filter>
+      <Filter>DataTypes</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

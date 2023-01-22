@@ -8,6 +8,8 @@
 namespace dae
 {
 	dae::Mesh::Mesh(ID3D11Device* pDevice, const std::vector<Vertex>& vertices, const std::vector<uint32_t>& indices, EffectType type)
+		:m_Vertices{vertices},
+		m_Indices{indices}
 	{
 		switch (type)
 		{

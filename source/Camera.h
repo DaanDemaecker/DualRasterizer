@@ -129,5 +129,11 @@ namespace dae
 			CalculateViewMatrix();
 			CalculateProjectionMatrix(); //Try to optimize this - should only be called once or when fov/aspectRatio changes
 		}
+
+
+		bool IsOutsideFrustum(const Vector4& vertex)const
+		{
+			return (vertex.x < -1.0f || vertex.x > 1.0f || vertex.y < -1.0f || vertex.y > 1.0f);
+		}
 	};
 }

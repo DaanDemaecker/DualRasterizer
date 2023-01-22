@@ -22,6 +22,13 @@
 // Framework Headers
 #include "Timer.h"
 #include "Math.h"
+#include "Helperstructs.h"
+
+enum class RasterizerMode
+{
+	Hardware,
+	Software
+};
 
 enum class FilterState
 {
@@ -34,4 +41,18 @@ enum class EffectType
 {
 	Shaded,
 	Transparent
+};
+
+enum class PrimitiveTopology
+{
+	TriangeList,
+	TriangleStrip
+};
+
+enum class ShadingMode
+{
+	ObservedArea,
+	Diffuse,
+	Specular,
+	Combined
 };
