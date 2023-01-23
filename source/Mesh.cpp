@@ -14,10 +14,10 @@ namespace dae
 		switch (type)
 		{
 		case EffectType::Shaded:
-			m_pEffect = new EffectShaded{ pDevice, L"./Resources/PosTex3D.fx" };
+			m_pEffect = new EffectShaded{ pDevice, L"./Resources/Vehicle.fx" };
 			break;
 		case EffectType::Transparent:
-			m_pEffect = new EffectTransparent{ pDevice, L"./Resources/PosTransparent3D.fx" };
+			m_pEffect = new EffectTransparent{ pDevice, L"./Resources/Fire.fx" };
 			break;
 		default:
 			break;
